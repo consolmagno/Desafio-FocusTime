@@ -7,6 +7,11 @@ export default function () {
 
   const fireSound = new Audio('assets/Lareira.wav')
 
+  florestSound.loop = true
+  rainSound.loop = true
+  cafeSound.loop = true
+  fireSound.loop = true
+
   function BtnFlorestSound() {
     florestSound.play()
     rainSound.pause()
